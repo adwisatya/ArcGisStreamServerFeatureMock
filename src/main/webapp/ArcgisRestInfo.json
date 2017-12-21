@@ -1,0 +1,11 @@
+{
+	"currentVersion": 10.5,
+	"fullVersion": "10.5.0",
+	"soapUrl": "https://geoeventsample1.esri.com:6443/arcgis/services",
+	"secureSoapUrl": null,
+	"owningSystemUrl": "https://geoeventsample1.esri.com/portal",
+	"authInfo": {
+		"isTokenBasedSecurity": true,
+		"tokenServicesUrl": "https://geoeventsample1.esri.com/portal/sharing/generateToken"
+	}
+}

@@ -1,0 +1,179 @@
+{
+		"description": null,
+		"objectIdField": null,
+		"displayField": "id_terminal",
+		"timeInfo": {
+			"trackIdField": "id_terminal",
+			"startTimeField": "timestamp",
+			"endTimeField": null
+		},
+		"geometryType": "esriGeometryPoint",
+		"geometryField": "position",
+		"spatialReference": {
+			"wkid": 4326,
+			"latestWkid": 4326
+		},
+		"drawingInfo": {
+			"renderer": {
+				"type": "simple",
+				"description": "",
+				"symbol": {
+					"type": "esriSMS",
+					"style": "esriSMSCircle",
+					"color": [5,
+					112,
+					176,
+					204],
+					"size": 10,
+					"angle": 0,
+					"xoffset": 0,
+					"yoffset": 0,
+					"outline": {
+						"color": [255,
+						255,
+						255,
+						255],
+						"width": 1
+					}
+				}
+			}
+		},
+		"fields": [{
+			"name": "seconds_since_report",
+			"type": "esriFieldTypeDouble",
+			"alias": "seconds_since_report",
+			"nullable": true
+		},
+		{
+			"name": "run_id",
+			"type": "esriFieldTypeString",
+			"alias": "run_id",
+			"nullable": true
+		},
+		{
+			"name": "longitude",
+			"type": "esriFieldTypeDouble",
+			"alias": "longitude",
+			"nullable": true
+		},
+		{
+			"name": "heading",
+			"type": "esriFieldTypeDouble",
+			"alias": "heading",
+			"nullable": true
+		},{
+			"name": "speed",
+			"type": "esriFieldTypeDouble",
+			"alias": "speed",
+			"nullable": true
+		},
+		{
+			"name": "route_id",
+			"type": "esriFieldTypeString",
+			"alias": "route_id",
+			"nullable": true
+		},
+		{
+			"name": "predictable",
+			"type": "esriFieldTypeString",
+			"alias": "predictable",
+			"nullable": true
+		},{
+			"name": "upd_sensor_type",
+			"type": "esriFieldTypeString",
+			"alias": "upd_sensor_type",
+			"nullable": true
+		},{
+			"name": "date_sender",
+			"type": "esriFieldTypeString",
+			"alias": "date_sender",
+			"nullable": true
+		},{
+			"name": "nav_status",
+			"type": "esriFieldTypeString",
+			"alias": "nav_status",
+			"nullable": true
+		},{
+			"name": "trk_id",
+			"type": "esriFieldTypeString",
+			"alias": "trk_id",
+			"nullable": true
+		},{
+			"name": "created",
+			"type": "esriFieldTypeString",
+			"alias": "created",
+			"nullable": true
+		},{
+			"name": "rate_of_turn",
+			"type": "esriFieldTypeString",
+			"alias": "rate_of_turn",
+			"nullable": true
+		},{
+			"name": "aton_off_status",
+			"type": "esriFieldTypeString",
+			"alias": "aton_off_status",
+			"nullable": true
+		},{
+			"name": "emgcy",
+			"type": "esriFieldTypeString",
+			"alias": "emgcy",
+			"nullable": true
+		},{
+			"name": "lost",
+			"type": "esriFieldTypeString",
+			"alias": "lost",
+			"nullable": true
+		},{
+			"name": "breadth",
+			"type": "esriFieldTypeString",
+			"alias": "breadth",
+			"nullable": true
+		},{
+			"name": "orientation",
+			"type": "esriFieldTypeString",
+			"alias": "orientation",
+			"nullable": true
+		},
+		{
+			"name": "length",
+			"type": "esriFieldTypeDouble",
+			"alias": "length",
+			"nullable": true
+		},
+		{
+			"name": "latitude",
+			"type": "esriFieldTypeDouble",
+			"alias": "latitude",
+			"nullable": true
+		},
+		{
+			"name": "id_terminal",
+			"type": "esriFieldTypeString",
+			"alias": "id_terminal",
+			"nullable": true
+		},{
+			"name": "nama_kkks",
+			"type": "esriFieldTypeString",
+			"alias": "nama_kkks",
+			"nullable": true
+		},
+		{
+			"name": "id",   
+			"type": "esriFieldTypeString",
+			"alias": "id",
+			"nullable": true
+		},
+		{
+			"name": "timestamp",
+			"type": "esriFieldTypeDate",
+			"alias": "timestamp",
+			"nullable": true
+		}],
+		"currentVersion": "10.5",
+		"streamUrls": [{
+			"transport": "ws",
+			"token": "pLA5eH3vpeu4YSQ_IkE8KTzqFT7-BA-POOsvqfKmBIXNkJ2Var2JcaemPIKgUIL1sfwLs7WxV9ADU2xKowIhww..",
+			"urls": ["'.$url.'"]
+		}],
+		"capabilities": "broadcast,subscribe"
+	}
